@@ -6,7 +6,7 @@ metadata:
   labels:
     app: mink-sample-linux-app
 spec:
-  type: NordPort
+  type: NodePort
   selector:
     app: mink-sample-linux-app
   ports:
